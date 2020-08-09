@@ -1,0 +1,25 @@
+Hej Team,
+
+First of all thank you for providing me the opportunity to implement the problem it was really good and fun and got to know about the new thing called NATS.
+
+
+Below are the things which I would like to improve in the application.
+
+
+1.Currently the application is using hardcoded subject instead of that  user can  enter a subject for which he wants to send and recieve a message and can have a multiple subscription switch. 
+
+2. A loop in the Subject reciever is created  which is continuously polling REST API and overload the service.If the expectation is to simply create a client which will get notified if there is any message in the subject instead of polling as per the documentation of NATS. Can be created as well which will have to connect to the NATS in CLIENT as well.
+
+3. I had a question which I wanted to ask, if the API project has to be linked with the Client or not, because here we are creating 2 projects and if we want to give it to some clients then we have to tell them to run the API as well as a windows service.
+And I created API project as a windows service as I didnt want user to go or open the browser.
+
+4. We can run API project as a service as well, and also we can make it self contained so that it wouldnt need a IIS to run the application as .NET core support self hosting. because we are not sure which operatiing system they will be running on.
+
+5. We can also use a docker to make this service platform independent.
+
+6. Sometimes messages in the subject are already read and doesnt show it to the client which looks like a bug and would like to fix it as well if more time is given. As multiple clients are calling a rest client continuously may be because of that some are considered are already recieved.
+
+7. Proper exception handling and performance improvement.though client recieves the messages instantly.
+
+
+
