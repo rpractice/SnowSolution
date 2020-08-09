@@ -29,7 +29,7 @@ To start a chat you need to enter the username otherwise you cannot recieve the 
 
   #### 2. Through powershell script.
 
-Run powershell script "start-demo.ps1" which will create a 2 instance of the client and one instance of the API which.
+Run powershell script "start-chat-client.ps1" which will create a 2 instance of the client and one instance of the API which.
 
 And to start a chat between these client you need to enter the username.
 
