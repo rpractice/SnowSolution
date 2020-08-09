@@ -2,7 +2,6 @@
 
 This Solution contains two project one in client which send and recieve message from the API and other is the rest API which will send data to the NAT Server 
 
-#### It include powershell scrips where you need to replace ".exec" to ".exe" as gmail is not allowing to upload a file
 
 ## Pre Requisites
 
