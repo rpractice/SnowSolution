@@ -1,1 +1,1 @@
-Start-Process -FilePath "nats-server.exe" 
+Start-Process -FilePath "nats-server.exec" 

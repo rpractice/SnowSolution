@@ -2,11 +2,13 @@
 
 This Solution contains two project one in client which send and recieve message from the API and other is the rest API which will send data to the NAT Server 
 
+#### It include powershell scrips where you need to replace ".exec" to ".exe" as gmail is not allowing to upload a file
+
 ## Pre Requisites
 
-####  1.NATS.EXE
+####  1.NATS.EXE.
 
-To use the client you need to have a NATS Service running in the backgroud which you can download it from [here](https://nats.io/download/). Once you donwload the file just place it in the poject folder from where you can simply  run the powershell scripts which I have share or you can just click on NATS.exe file which will make it up and running.
+To use the client you need to have a NATS Service running in the backgroud which you can download it from [here](https://nats.io/download/). Once you donwload the file just place it in the poject folder from where you can simply  run the powershell scripts which I have share or you can just click on NATS.exe_file which will make it up and running.
 
 ####  2.Visual Studio if you are a developer 
 
